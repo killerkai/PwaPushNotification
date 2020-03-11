@@ -1,0 +1,123 @@
+﻿<html lang="no">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="date=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="lib/manifest.json">
+    <link rel="stylesheet" href="//cdn.web2net.no/lib-2.0.0/css/az-2.0.0.min.css" />
+    <script src="//cdn.web2net.no/lib-2.0.0/js/az-2.0.0.min.js"></script>
+    <link rel="stylesheet" href="/lib/standard.css" />
+    <link rel="stylesheet" href="/lib/css/index.css" />
+    <script src="/lib/functionlib.js"></script>
+    <script src="/lib/js/index.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            setContentInfo();
+        });
+
+    </script>
+</head>
+<body>
+
+    <form id="frmReg">
+
+        <div class="az-navbar az-navbar-top az-navbar-sticky">
+            <div class="az-navbar-top-content">
+
+                <button type="button" class="az-navbar-button">&#9776;</button>
+                <img class="az-navbar-branding" src="lib/images/icon/android-icon-192x192.png" />
+                <div class="az-navbar-menu-wrapper">
+                    <ul class="az-navbar-menu az-animated az-display-left">
+                        <li><a href="#section-1">Hjem</a></li>
+                        <li><a href="#section-2">Section 1</a></li>
+                        <li><a href="#section-3">Section 2</a></li>
+                    </ul>
+                    <ul class="az-navbar-menu az-display-right">
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="section-1" class="az-section" style="height: 1200px;">
+            <div class="az-container az-padding-t-56">
+                <div class="az-card" style="height: 600px;">
+                    <article>
+                        <div class="az-row">
+                            <div class="az-col xs-12 sm-3 md-3">
+                                <img src="lib/images/icon/android-icon-192x192.png" />
+                            </div>
+                            <div class="az-col xs-12 sm-3 md-3 az-padding-t-56">
+                                <h2>Push Notifications</h2>
+                            </div>
+                            <div class="az-col xs-12 sm-3 md-3" style="padding-top: 62px;">
+                                <div class="az-form-group">
+                                    <button type="button" id="cmdPushButton" class="az-button az-button-block primary az-shadow-1 az-shadow-hover-2">Enable Push Messaging</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="PushInfo" class="az-row" style="display: none;">
+                            <div class="az-col xs-12 sm-3 az-padding-t-14">
+                            </div>
+                            <div class="az-col xs-12 sm-3 az-padding-t-14">
+                                <p class="az-text" style="font-size: 1.2em;">Our Push Notifications service provides a unified push capability to send personalized and segmented real-time notifications to mobile and web applications</p>
+                            </div>
+                            <div class="az-col xs-12 sm-3 az-padding-t-14 az-padding-l-28">
+                                <img src="lib/images/push_image.png" width="250px" />
+                            </div>
+                        </div>
+                        <div id="PushSend" class="az-row" style="display: none;">
+                            <div class="az-col xs-12 sm-3 az-padding-t-14">
+                            </div>
+                            <div class="az-col xs-12 sm-3 az-padding-t-14">
+                                <div class="az-form-group sm">
+                                    <label class="az-label sm">Payload</label>
+                                    <textarea class="az-textarea sm" rows="5" id="PushPayload"></textarea>
+                                </div>
+                            </div>
+                            <div class="az-col xs-12 sm-3" style="padding-top: 70px;">
+                                <div class="az-form-group">
+                                    <button type="button" id="cmdSendPushButton" class="az-button az-button-block success az-shadow-1 az-shadow-hover-2">Send Push Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="section-2" class="az-section az-bg-teal" style="height: 1200px;">
+            <div class="az-container">
+                <h1>Section 1</h1>
+            </div>
+        </div>
+
+        <div id="section-3" class="az-section" style="height: 1200px;">
+            <div class="az-container">
+                <h1>Section 2</h1>
+            </div>
+        </div>
+
+        <div class="az-navbar az-navbar-bottom az-navbar-sticky">
+            <div class="az-navbar-bottom-content">
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

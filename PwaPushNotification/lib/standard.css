@@ -1,0 +1,957 @@
+﻿/* Size ALL --------*/
+html, body {
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #000000;
+    background-color: #DEDEDE;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+/*--------------------------------------------------------
+Accordion 
+accordion.css    
+-----------------------------------------------------------*/
+.az-accordion-card {
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .az-accordion-card > header {
+        padding: 7px;
+    }
+
+        .az-accordion-card > header > * {
+            font-size: 14px;
+        }
+
+        .az-accordion-card > header > i {
+            font-size: 12px;
+            margin-right: 2px;
+            margin-top: 4px;
+        }
+
+    .az-accordion-card > article {
+        padding: 7px;
+    }
+
+        .az-accordion-card > article > * {
+            font-size: 14px;
+        }
+
+    .az-accordion-card > header.az-accordion-header-active {
+    }
+
+    .az-accordion-card > article.az-accordion-article-active {
+    }
+
+
+/*--------------------------------------------------------
+Card 
+card.css    
+-----------------------------------------------------------*/
+.az-card {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .az-card > header {
+        background-color: #0078D7;
+        color: #FFFFFF;
+    }
+
+        .az-card > header > * {
+            font-size: 14px;
+        }
+
+    .az-card > article {
+    }
+
+        .az-card > article > h1 {
+            font-size: 14px;
+        }
+
+    .az-card > footer {
+        background-color: #0078D7;
+        color: #FFFFFF;
+    }
+
+        .az-card > footer > h1 {
+            font-size: 14px;
+        }
+
+    /* Card Overlay */
+    .az-card > .az-card-overlay {
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+
+        .az-card > .az-card-overlay > .az-card-overlay-card {
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+
+            .az-card > .az-card-overlay > .az-card-overlay-card > article {
+                background-color: #0078D7;
+                color: #FFFFFF;
+            }
+
+                .az-card > .az-card-overlay > .az-card-overlay-card > article > h1 {
+                    font-size: 14px;
+                }
+
+                .az-card > .az-card-overlay > .az-card-overlay-card > article > name {
+                    font-weight: bold;
+                }
+
+
+/*--------------------------------------------------------
+Color 
+color.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Default 
+default.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Display 
+display.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Form 
+form.css
+- Form Group
+- Input Group Addon
+- Input Standard
+- Toggle Switch
+- Rounded Toggle Switch
+- Range (Slider)
+- Multi Range (Slider)
+- Buttons
+- Input Animated
+- Alert
+- Modal Background
+- Modal Dialog
+- Window
+- Full Window
+- Dropdown
+- Badge
+- Cover Spin
+- Fieldset
+- Lable Asterisk
+- Progress Bar
+- Animations Keyframes
+-----------------------------------------------------------*/
+/* Form Group */
+
+/* Input Group Addon */
+.az-form-group .az-input-group-addon {
+    border: 1px solid #BBBBBB;
+    background-color: #DDDDDD;
+}
+
+/* Input Standard */
+.az-form-group .az-input {
+    border: 1px solid #BBBBBB;
+    background-color: #FFFFFF;
+}
+
+.az-form-group .az-textarea {
+    border: 1px solid #BBBBBB;
+    background-color: #FFFFFF;
+}
+
+.az-form-group .az-select {
+    border: 1px solid #BBBBBB;
+    background-color: #FFFFFF;
+}
+
+/* Toggle Switch */
+.az-form-group .az-switch .az-slider {
+    background-color: #CCCCCC;
+}
+
+    .az-form-group .az-switch .az-slider:before {
+        background-color: #FFFFFF;
+    }
+
+.az-form-group .az-switch input:checked + .az-slider {
+    background-color: #0078D7;
+}
+
+/* Range (Slider) */
+.az-form-group .az-range {
+    background-color: #DEDEDE;
+}
+
+    .az-form-group .az-range::-webkit-slider-runnable-track {
+        background-color: #CCCCCC;
+    }
+
+    .az-form-group .az-range::-moz-range-track {
+        background-color: #CCCCCC;
+    }
+
+    .az-form-group .az-range::-ms-track {
+        background-color: #CCCCCC;
+    }
+
+    .az-form-group .az-range::-webkit-slider-thumb {
+        background-color: #0078D7;
+    }
+
+    .az-form-group .az-range::-moz-range-thumb {
+        background-color: #0078D7;
+    }
+
+    .az-form-group .az-range::-ms-thumb {
+        background-color: #0078D7;
+    }
+
+/* Multi Range (Slider) */
+
+
+/* Buttons */
+.az-form-group .az-button.default {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.az-form-group .az-button.primary {
+    background-color: #0078D7;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-button.success {
+    background-color: #28a745;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-button.info {
+    background-color: #0bb2d4;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-button.warning {
+    background-color: #FF851B;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-button.danger {
+    background-color: #FF4136;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-button.link {
+    background-color: transparent;
+    border: none;
+}
+
+    .az-form-group .az-button.link:hover {
+        text-decoration: underline;
+    }
+
+/* Input Animated */
+.az-form-group .az-input-group-addon-animated {
+    background-color: transparent;
+}
+
+.az-form-group .az-input-animated {
+    border-bottom: 1px solid #CCCCCC !important;
+    background-color: transparent;
+}
+
+    .az-form-group .az-input-animated:focus {
+        border-bottom: 1px solid #666666 !important;
+    }
+
+/* Alert */
+.az-form-group .az-alert-default {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.az-form-group .az-alert-primary {
+    background-color: #0078D7;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-alert-success {
+    background-color: #28a745;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-alert-info {
+    background-color: #0bb2d4;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-alert-warning {
+    background-color: #FF851B;
+    color: #FFFFFF;
+}
+
+.az-form-group .az-alert-danger {
+    background-color: #FF4136;
+    color: #FFFFFF;
+}
+
+/* Modal Background */
+#az-background {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.az-background {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Dialog */
+
+
+/* Window */
+#az-window {
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    #az-window > .az-window-titlebar > h1 {
+        font-size: 14px;
+    }
+
+    #az-window > .az-window-titlebar > span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+        #az-window > .az-window-titlebar > span:hover {
+            color: #FF4136;
+        }
+
+
+/* Full Window */
+#az-full-window-close {
+    padding: 7px 14px;
+    font-size: 35px;
+}
+
+    #az-full-window-close:hover {
+        background: #DDDDDD;
+    }
+
+/* Dropdown */
+.az-dropdown-layout {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .az-dropdown-layout > li {
+        border-top: 1px solid #cccccc;
+    }
+
+        .az-dropdown-layout > li > a {
+            padding: 7px;
+            color: #000000;
+        }
+
+            .az-dropdown-layout > li > a:hover {
+                background-color: #cccccc;
+                color: #FFFFFF;
+            }
+
+            .az-dropdown-layout > li > a > i {
+                margin-right: 7px !important;
+            }
+
+/* Badge */
+
+
+
+/* Cover Spin Text */
+#az-cover-spin > div {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+/* Fieldset */
+.az-fieldset {
+    border: 1px solid #DDDDDD;
+}
+
+    .az-fieldset legend {
+    }
+
+/* Lable Asterisk */
+.az-mandatory-asterisk {
+    color: #FF0000;
+}
+
+
+/*--------------------------------------------------------
+Grid 
+grid.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+List 
+list.css    
+-----------------------------------------------------------*/
+.az-list-card {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .az-list-card > header {
+        height: 18px;
+        background-color: #0078D7;
+        color: #FFFFFF;
+    }
+
+        .az-list-card > header > h1 {
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+
+        .az-list-card > header > button {
+            font-size: 14px;
+        }
+
+        .az-list-card > header i {
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+
+    .az-list-card > article {
+    }
+
+        .az-list-card > article > h1 {
+            font-size: 14px;
+        }
+
+        .az-list-card > article > name {
+            font-weight: bold;
+        }
+
+    .az-list-card > footer {
+        background-color: #0078D7;
+        color: #FFFFFF;
+    }
+
+        .az-list-card > footer > h1 {
+            font-size: 14px;
+        }
+
+
+/*--------------------------------------------------------
+Navbar 
+navbar.css    
+-----------------------------------------------------------*/
+/* Navbar Top*/
+.az-navbar.az-navbar-top {
+    background-color: #000000;
+}
+
+.az-navbar > .az-navbar-top-content {
+}
+
+    .az-navbar > .az-navbar-top-content > .az-navbar-button {
+        margin: 8px 7px 8px 0;
+        padding: 11px 15px;
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    .az-navbar > .az-navbar-top-content > .az-navbar-branding {
+        height: 46px;
+        float: left;
+        margin: 3px 3px 0 3px;
+    }
+
+    .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper {
+    }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-left {
+        }
+
+            .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-left > li > a {
+                padding: 16px;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+
+                .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-left > li > a > i {
+                }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-right {
+        }
+
+            .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-right > li > a {
+                color: #FFFFFF;
+            }
+
+                .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-right > li > a > i {
+                    padding: 12px;
+                    font-size: 30px;
+                }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-button:hover,
+        .az-navbar > .az-navbar-top-content > .az-navbar-menu-wrapper > .az-navbar-menu > li > a:hover,
+        .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li > a:hover {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+/* Navbar Bottom*/
+.az-navbar.az-navbar-bottom {
+    background-color: #000000;
+}
+
+.az-navbar > .az-navbar-bottom-content {
+}
+
+    .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li {
+        width: 25%;
+        text-align: center;
+    }
+
+        .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li > a {
+            padding: 7px;
+            color: #FFFFFF;
+        }
+
+            .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li > a > i {
+                font-size: 18px;
+            }
+
+            .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li > a > p {
+                font-size: 13px;
+            }
+
+@media (max-width: 576px) {
+    /* Navbar Top*/
+    .az-navbar.az-navbar-top {
+        top: 0 !important;
+        left: 0 !important;
+        height: auto !important;
+    }
+
+    .az-navbar > .az-navbar-top-content {
+    }
+
+        .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-left {
+        }
+
+            .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-left > li > a {
+                padding: 8px;
+            }
+
+                .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-left > li > a > i {
+                }
+
+        .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-right {
+        }
+
+            .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-right > li > a {
+            }
+
+                .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu-wrapper > .az-navbar-menu.az-display-right > li > a > i {
+                    padding: 4px;
+                }
+}
+
+@media (max-width: 767px) {
+    /* Navbar Top*/
+    .az-navbar.az-navbar-top {
+        top: 0 !important;
+    }
+}
+
+/*--------------------------------------------------------
+Parallax 
+parallax.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Portfolio 
+portfolio.css    
+-----------------------------------------------------------*/
+.az-portfolio-menu {
+}
+
+    .az-portfolio-menu li {
+        background-color: #00929F;
+        color: #FFFFFF;
+        -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+        .az-portfolio-menu li:hover {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+/* Content */
+.az-portfolio-content li {
+    width: 380px;
+}
+
+    .az-portfolio-content li > .az-portfolio-card, .az-portfolio-content li > img {
+        -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+        .az-portfolio-content li > .az-portfolio-card > header {
+            background-color: #0078D7;
+        }
+
+            .az-portfolio-content li > .az-portfolio-card > header > h1 {
+                font-size: 14px;
+                color: #FFFFFF;
+            }
+
+        .az-portfolio-content li > .az-portfolio-card > article {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+            .az-portfolio-content li > .az-portfolio-card > article > h1 {
+                font-size: 14px;
+            }
+
+            .az-portfolio-content li > .az-portfolio-card > article > img {
+                width: 380px;
+            }
+
+        .az-portfolio-content li > .az-portfolio-card > footer {
+            background-color: #0078D7;
+            color: #FFFFFF;
+        }
+
+            .az-portfolio-content li > .az-portfolio-card > footer > h1 {
+                font-size: 14px;
+            }
+
+@media (max-width: 576px) {
+    .az-portfolio-content li > .az-portfolio-card > article > img {
+        width: 330px;
+    }
+
+    .az-portfolio-content li {
+        width: 330px;
+    }
+}
+
+/* Card Overlay */
+.az-portfolio-content li > .az-portfolio-card > .az-portfolio-overlay {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+    .az-portfolio-content li > .az-portfolio-card > .az-portfolio-overlay > .az-portfolio-overlay-card {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+        .az-portfolio-content li > .az-portfolio-card > .az-portfolio-overlay > .az-portfolio-overlay-card > article {
+            background-color: #00929F;
+            color: #FFFFFF;
+        }
+
+            .az-portfolio-content li > .az-portfolio-card > .az-portfolio-overlay > .az-portfolio-overlay-card > article > h1 {
+                font-size: 14px;
+            }
+
+
+/*--------------------------------------------------------
+Sidebar 
+sidebar.css    
+-----------------------------------------------------------*/
+.az-sidebar-menu > li > a {
+    padding: 6px;
+    font-size: 16px;
+    color: #000000;
+}
+
+    .az-sidebar-menu > li > a > i {
+        margin-right: 14px;
+        font-size: 16px;
+    }
+
+    .az-sidebar-menu > li > a:hover {
+        background-color: #0078D7;
+        color: #FFFFFF;
+    }
+
+.az-sidebar-filter > li {
+    margin: 7px;
+}
+
+
+/*--------------------------------------------------------
+Slidein 
+slidein.css    
+-----------------------------------------------------------*/
+.az-slidein > .az-slidein-tab {
+    font-size: 14px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.az-slidein-card {
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+    .az-slidein-card > article > * {
+        font-size: 14px;
+    }
+
+/*--------------------------------------------------------
+Slideshow 
+slideshow.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Snackbar 
+snackbar.css    
+-----------------------------------------------------------*/
+.az-snackbar {
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+    .az-snackbar > .az-snackbar-table .az-snackbar-text {
+    }
+
+    .az-snackbar > .az-snackbar-table .az-snackbar-close {
+    }
+
+
+/*--------------------------------------------------------
+Table 
+table.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Tabs 
+tabs.css    
+-----------------------------------------------------------*/
+.az-tabs {
+}
+
+    .az-tabs > ul {
+        padding: 7px 0 0 7px;
+        background-color: #DEDEDE;
+    }
+
+        .az-tabs > ul > li {
+            padding: 14px;
+            font-size: 14px;
+            color: #FFFFFF;
+            background-color: #0078D7;
+            border: 1px solid #DDDDDD;
+        }
+
+            .az-tabs > ul > li:hover {
+                background-color: #FF9F55;
+                -webkit-transition: background-color 0.4s;
+                -moz-transition: background-color 0.4s;
+                -o-transition: background-color 0.4s;
+                transition: background-color 0.4s;
+            }
+
+            .az-tabs > ul > li.az-tabs-tab-active {
+                background-color: #FF9F55;
+            }
+
+    .az-tabs > .az-tabs-card > article {
+        margin: 0 7px 7px 7px;
+        padding: 7px;
+        background-color: #FFFFFF;
+    }
+
+        .az-tabs > .az-tabs-card > article > * {
+            color: #000000;
+            font-size: 14px;
+        }
+
+        .az-tabs > .az-tabs-card > article.az-tabs-article-active {
+            display: block;
+        }
+
+    .az-tabs.az-tabs-vertical > .az-tabs-card > article {
+        margin-top: 7px;
+    }
+
+    .az-tabs.az-tabs-bottom > ul {
+        padding: 0 0 7px 7px;
+    }
+
+    .az-tabs.az-tabs-bottom > .az-tabs-card > article {
+        margin: 7px 7px 0 7px;
+    }
+
+/*--------------------------------------------------------
+Text 
+text.css    
+-----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+Timeline 
+timeline.css    
+-----------------------------------------------------------*/
+.az-timeline::after {
+    background-color: #00929F;
+}
+
+/* Circles */
+.az-timeline > .az-timeline-container::after {
+    border: 4px solid #FF9F55;
+    background-color: #FFFFFF;
+}
+
+/* Arrows (pointing right) */
+.az-timeline > .az-timeline-container.left::before {
+    border: medium solid #FF9F55;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #FF9F55;
+}
+
+/* Arrows (pointing left) */
+.az-timeline > .az-timeline-container.right::before {
+    border: medium solid #FF9F55;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #FF9F55 transparent transparent;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .az-timeline > .az-timeline-container.left::before, .az-timeline > .az-timeline-container.right::before {
+        border: medium solid #FF9F55;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #FF9F55 transparent transparent;
+    }
+}
+
+/* Content */
+.az-timeline > .az-timeline-container > .az-timeline-card {
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .az-timeline > .az-timeline-container > .az-timeline-card > header {
+        background-color: #0078D7;
+    }
+
+        .az-timeline > .az-timeline-container > .az-timeline-card > header > h1 {
+            font-size: 14px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+
+    .az-timeline > .az-timeline-container > .az-timeline-card > article {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+        .az-timeline > .az-timeline-container > .az-timeline-card > article > h1 {
+            font-size: 14px;
+        }
+
+    .az-timeline > .az-timeline-container > .az-timeline-card > footer {
+        background-color: #0078D7;
+        color: #FFFFFF;
+    }
+
+        .az-timeline > .az-timeline-container > .az-timeline-card > footer > h1 {
+            font-size: 14px;
+        }
+
+
+/*--------------------------------------------------------
+Jquery UI 
+jqueryui/jquery-ui.min.css    
+-----------------------------------------------------------*/
+.ui-front {
+    z-index: 5000;
+}
+
+.ui-dialog {
+    padding: 0 !important;
+    padding: 7px !important;
+    background-color: #FFFFFF !important;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.ui-widget-header {
+    margin-bottom: 7px !important;
+    border: 0 !important;
+    font-weight: normal !important
+}
+
+.ui-dialog-titlebar {
+    padding: 0px !important;
+}
+
+.ui-dialog-title {
+    padding: 7px !important;
+    margin: 0 !important;
+}
+
+.ui-dialog-titlebar-close {
+    right: 7px !important;
+}
+
+.ui-corner-all {
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+}
+
+.ui-dialog-content {
+    padding: 7px !important;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #dddddd !important;
+}
